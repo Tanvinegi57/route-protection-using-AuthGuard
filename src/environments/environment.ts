@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  registerAPI: 'https://api-lib.applifyapps.com/api/v1/user/signUp',
+  LoginURL: 'https://api-lib.applifyapps.com/api/v1/user/login',
 };
 
 /*
